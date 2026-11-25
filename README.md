@@ -1,6 +1,6 @@
-# 04 Fraud Detection ML
+# Fraud Detection ML
 
-A machine learning project that trains a model to detect fraudulent credit card transactions using a real-world dataset from Kaggle. Built in Python as part of a portfolio project series demonstrating AI and full-stack development skills.
+A machine learning project that trains a model to detect fraudulent credit card transactions using a real-world dataset from Kaggle. Built in Python.
 
 ## Overview
 
@@ -55,7 +55,7 @@ See the full notebook conclusion for problem context, approach, trade-offs, and 
 ## Project Structure
 
 ```
-04_fraud_detection_ml/
+fraud_detection_ml/
 │
 ├── fraud_detection.ipynb    # Main Jupyter notebook — full ML pipeline
 ├── requirements.txt         # Core Python dependencies
@@ -70,7 +70,7 @@ See the full notebook conclusion for problem context, approach, trade-offs, and 
 ## How to Run
 
 ```powershell
-cd 04_fraud_detection_ml
+cd fraud_detection_ml
 venv\Scripts\activate
 jupyter notebook
 ```
@@ -78,18 +78,3 @@ jupyter notebook
 Then open `fraud_detection.ipynb` in the browser.
 
 Requires `creditcard.csv` in the project root (download from Kaggle).
-
-## Part of a Larger Project Series
-
-| # | Project | Status |
-|---|---------|--------|
-| 01 | Finance Tracker | ✅ Complete |
-| 02 | Booking System | ✅ Complete |
-| 03 | Stock Dashboard | ✅ Complete |
-| 04 | Fraud Detection ML | ✅ Complete |
-| 05 | RAG System | ⏳ Planned |
-| 06 | AI Agent | ⏳ Planned |
-| 07 | Multi-Agent System | ⏳ Planned |
-| 08 | AI Receptionist SaaS (Capstone) | ⏳ Planned |
-
----
